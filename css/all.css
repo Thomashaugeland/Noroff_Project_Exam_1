@@ -1,0 +1,121 @@
+body {
+    background-color: #101010;
+    height: 125vh;
+    background-image: url(/Images/v748-toon-131.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: rgb(60, 68, 62);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: rgb(84, 167, 20);
+}
+
+#nav {
+    width: 750px;
+    margin: auto;
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav a {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    text-decoration: underline;
+    color: rgb(82, 156, 25);
+    text-underline-position: below;
+    font-weight: bolder;
+}
+
+.nav2 {
+    width: 750px;
+    margin: auto;
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+.active-page {
+    background-color: rgb(255, 226, 39);
+    opacity: 0.7;
+    border-radius: 70%;
+}
+
+
+button {
+    background: rgb(135, 201, 85);
+    border: none;
+    width: 200px;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(255, 226, 39);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 226, 39);
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(135, 201, 85);
+}
+
+p {
+    color: rgb(230, 207, 62);
+    font-size: 20px;
+}
+
+.social-img {
+    width: 20%;
+}
+
+/* On screens that are 600px or less */
+@media screen and (max-width: 767px) {
+    #nav {
+        list-style-type: none;
+        margin-left: 30px;
+        padding: 0px;
+        width: 100px;
+
+    }
+
+    #nav a a {
+        display: block;
+
+    }
+
+    li a:hover {
+        font-size: larger;
+        /* background-color: rgb(251, 251, 251); */
+        border-radius: 30%;
+        color: black;
+    }
+
+    .active-page {
+        background-color: rgb(255, 226, 39);
+        opacity: 0.7;
+        border-radius: 30%;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="/css/all.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav">
+                <li class=navbar_item><a href="index.html"> Home</a></li>
+                <li class=navbar_item><a href="about.html"> About</a></li>
+                <li class=navbar_item><a href="blogs.html"> List of blogs</a></li>
+                <li><a href="contact.html" class='active-page'>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Welcome to Kanes`world!</h1>
+
+    <main class="contact">
+        <form name="contactForm">
+            <div>
+                <label>
+                    First name (required)
+                    <input name="firstName" id="firstName" />
+                </label>
+                <div class="form-error" id="firstNameError">Please enter your first name
+                </div>
+
+                <div>
+                    <label>
+                        Last name (required)
+                        <input name="lastName" id="lastName" />
+                    </label>
+                    <div class="form-error" id="lastNameError">Please enter your last name
+                    </div>
+                </div>
+
+                <div>
+                    <label>
+                        Email (required)
+                        <input name="email" id="email" />
+                    </label>
+                    <div class="form-error" id="emailError">Please enter a valid email address
+                    </div>
+                </div>
+
+
+                <label>
+                    Subject
+                </label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="width: 100%;"></textarea>
+            </div>
+        </form>
+
+        <button onclick="validateForm()">Submit</button>
+
+        <center>
+            <img class="contact-img" src="Images/mom & dad.jpg" alt="Puppy">
+        </center>
+
+        <script src="scripts/contact.js"></script>
+</body>
+
+</html>
