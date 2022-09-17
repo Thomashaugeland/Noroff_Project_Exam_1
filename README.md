@@ -10,8 +10,6 @@
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [javascripts](https://www.javascript.com/)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [html](https://html.com/)
