@@ -13,9 +13,9 @@
 You can list a the tech stack that you've used over here
 
 - [javascripts](https://www.javascript.com/)
-- [CSS][(https: (https://en.wikipedia.org/wiki/CSS)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 - [html](https://html.com/)
-- [Wordpress] (https://wordpress.com/)
+- [Wordpress](https://wordpress.com/)
 
 ## Getting Started
 
